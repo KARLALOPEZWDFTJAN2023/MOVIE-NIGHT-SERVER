@@ -15,6 +15,6 @@ const todoSchema = new Schema(
     },
   },
 )
-const toDo = model("toDo", userSchema);
+const toDo = model("toDo", todoSchema);
 
 module.exports = toDo;

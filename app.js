@@ -22,7 +22,6 @@ const authRoutes = require("./routes/auth.routes");
 app.use("/auth", authRoutes);
 
 const moviesRoutes= require ("./routes/movies.routes")
-app.use("/", indexRoutes);
 app.use("/api", movieRoutes);
 
 
