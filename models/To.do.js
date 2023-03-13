@@ -14,12 +14,7 @@ const todoSchema = new Schema(
       type: String,
     },
   },
-  {
-    // this second object adds extra properties: `createdAt` and `updatedAt`
-    timestamps: true,
-  }
-);
-
+)
 const toDo = model("toDo", userSchema);
 
 module.exports = toDo;
